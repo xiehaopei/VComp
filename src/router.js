@@ -8,6 +8,10 @@ const routes = [
     path: '/form',
     component: () => import('./views/form.vue'),
   },
+  {
+    path: '/checkbox',
+    component: () => import('./views/checkbox.vue'),
+  },
 ];
 
 const router = new VueRouter({
