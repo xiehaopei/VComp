@@ -16,6 +16,10 @@ const routes = [
     path: '/radio',
     component: () => import('./views/radio.vue'),
   },
+  {
+    path: '/display',
+    component: () => import('./views/display.vue'),
+  },
 ];
 
 const router = new VueRouter({
