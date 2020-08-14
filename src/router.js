@@ -20,6 +20,10 @@ const routes = [
     path: '/display',
     component: () => import('./views/display.vue'),
   },
+  {
+    path: '/alert',
+    component: () => import('./views/alert.vue'),
+  },
 ];
 
 const router = new VueRouter({
